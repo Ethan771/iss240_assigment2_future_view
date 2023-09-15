@@ -1,0 +1,112 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap" rel="stylesheet">
+
+h1 {background-color:#6495ed;}
+p {background-color:#fcfdfd;}
+div {background-color:#aef6f8ee;}
+body {background-color:#0b0b0b;}
+h2 {background-color:#fcfcfc;}
+h3 {background-color:#fbfcfc;}
+li {background-color:#fcfdfe;}
+ul {background-color:#e0ffff;}
+
+* {
+	box-sizing: border-box;
+    margin: 0px;
+}
+img {
+	display: block;
+	max-width: 100%;
+    margin: 0px;
+}
+
+main {
+    display: flex;
+    flex: 1 2 100px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Holtwood One SC', serif;
+    font-size: .8rem;
+}
+
+.row {
+    padding: 1rem;
+    max-width: 400px;
+    max-height: 500px;
+    overflow: hidden;
+    margin: 1rem;
+
+}
+
+.row2 {
+    padding: 1rem;
+    max-width: 800px;
+    max-height: 500px;
+    overflow: hidden;
+    margin: 1rem;
+}
+
+
+.row3 {
+    padding: 2rem;
+    max-width: 100%;
+    text-align: center;
+    overflow: hidden;
+    margin: 1rem;
+}
+
+
+p {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1rem;
+    margin: auto;
+}
+
+li{
+    line-height: 1.2rem;
+}
+
+h1 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: #3e3e3f;
+    text-shadow: 1px 1px #46b4f9;
+
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+    color: #e354a2;
+    font-size: 2.4rem;
+    line-height: 2.5rem;
+    text-shadow: 1px 1px #8d7e81;
+    
+}
+
+h3 {
+    font-family: 'Cairo Play', sans-serif;
+    font-size: 2rem;
+    color: #5a5af3;
+    text-shadow: 1px 1px #420916;
+    font-weight: 400;
+}
+footer {
+    background-image: linear-gradient(rgb(5, 4, 4), rgba(1, 1, 1, 0.969));
+    color: #6d20f3;
+    font-size: .3rem;
+    font-family: 'Noto Sans Linear B', sans-serif;
+    line-height: 1rem;
+    margin-bottom: -8px;
+    padding: -8px;
+}
